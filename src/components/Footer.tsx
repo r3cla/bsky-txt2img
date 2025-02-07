@@ -9,7 +9,7 @@ export const Footer = () => {
         <p className="text-sm text-muted-foreground">No data is stored or collected from this application</p>
 
         <div className="flex items-center space-x-4">
-          <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} Text to Image Generator</p>
+          <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()}</p>
           <div className="flex space-x-1">
             <Button variant="ghost" size="sm">
               <Github className="h-4 w-4" />

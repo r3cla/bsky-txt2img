@@ -27,9 +27,9 @@ const Index = () => {
       <main className="flex-1 py-12 px-4 bg-white/80 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto space-y-8">
           <div className="text-center space-y-2">
-            <h1 className="text-4xl font-display font-bold">Text to Image</h1>
+            <h1 className="text-4xl font-display font-bold">Bsky txt2img</h1>
             <p className="text-muted-foreground">
-              Create beautiful image posts for BlueSky from your text
+              Create image posts for BlueSky from your text
             </p>
           </div>
 
