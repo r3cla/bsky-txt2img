@@ -19,7 +19,7 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col" 
       style={{
-        backgroundImage: 'url("https://images.unsplash.com/photo-1469474968028-56623f02e42e")',
+        backgroundImage: 'url("https://images.unsplash.com/photo-1536532184021-da5392b55da1")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
