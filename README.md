@@ -1,7 +1,7 @@
 
 # Text to Image Generator
 
-A simple web application that converts text into beautiful, shareable images. Built with React, TypeScript, and Tailwind CSS.
+A simple web application that converts text into shareable images for Bsky.app. Built with React, TypeScript, and Tailwind CSS.
 
 ## Features
 
