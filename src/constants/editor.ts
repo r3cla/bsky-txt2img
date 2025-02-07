@@ -22,12 +22,12 @@ export const colorCombinations: ColorCombination[] = [
     bgColor: "bg-[#000000]"
   },
   { 
-    name: "Black on Purpley-Blue",
+    name: "Black on Blue",
     textColor: "text-[#000000]",
     bgColor: "bg-[#81c2ff]"
   },
   { 
-    name: "Purpley-Blue on Black",
+    name: "Blue on Black",
     textColor: "text-[#81c2ff]",
     bgColor: "bg-[#000000]"
   },
