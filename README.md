@@ -11,7 +11,7 @@ A simple web application that converts text into shareable images for Bsky.app. 
 - Responsive design
 
 ## Technologies Used
-[![My Skills](https://skillicons.dev/icons?i=ts,vite,react,tailwind)
+![My Skills](https://skillicons.dev/icons?i=ts,vite,react,tailwind)
 
 ## Development
 
