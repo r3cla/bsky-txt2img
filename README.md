@@ -15,7 +15,6 @@ A simple web application that converts text into shareable images for Bsky.app. 
 - Vite
 - TypeScript
 - React
-- shadcn-ui
 - Tailwind CSS
 
 ## Development
