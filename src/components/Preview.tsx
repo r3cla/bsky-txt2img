@@ -19,11 +19,11 @@ const HTML2CANVAS_OPTIONS = {
 } as const;
 
 const getFontSize = (length: number): string => {
-  if (length <= 50) return "text-5xl md:text-6xl lg:text-7xl";
-  if (length <= 100) return "text-4xl md:text-5xl lg:text-6xl";
-  if (length <= 150) return "text-3xl md:text-4xl lg:text-5xl";
-  if (length <= 200) return "text-2xl md:text-3xl lg:text-4xl";
-  return "text-xl md:text-2xl lg:text-3xl";
+  if (length <= 50) return "text-4xl md:text-5xl lg:text-6xl";
+  if (length <= 100) return "text-3xl md:text-4xl lg:text-5xl";
+  if (length <= 150) return "text-2xl md:text-3xl lg:text-4xl";
+  if (length <= 200) return "text-1xl md:text-2xl lg:text-3xl";
+  return "text-lg md:text-xl lg:text-2xl";
 };
 
 export const Preview = ({ text, font, color, bgColor }: PreviewProps) => {
@@ -73,7 +73,7 @@ export const Preview = ({ text, font, color, bgColor }: PreviewProps) => {
   return (
     <div className="space-y-4 animate-fadeIn">
       <Card 
-        className={`p-8 max-w-xl mx-auto aspect-[3/4] flex items-center justify-center ${bgColor}`} 
+        className={`p-6 max-w-lg mx-auto aspect-[4/3] flex items-center justify-center ${bgColor}`} 
         ref={previewRef}
       >
         <p 

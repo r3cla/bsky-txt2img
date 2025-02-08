@@ -22,19 +22,16 @@ export const TextEditor = ({ onGenerate }: TextEditorProps) => {
   };
 
   return (
-    <Card className="w-full max-w-xl p-6 space-y-6 animate-fadeIn backdrop-blur-sm bg-white/80">
+    <Card className="w-full max-w-lg p-4 space-y-4 animate-fadeIn backdrop-blur-sm bg-white/80">
       <div className="space-y-2">
         <h2 className="text-2xl font-display font-semibold">Create Your Post</h2>
-        <p className="text-sm text-muted-foreground">
-          Transform your text into a beautiful image for BlueSky
-        </p>
       </div>
 
-      <div className="space-y-6">
+      <div className="space-y-4">
         <div className="space-y-2">
           <Textarea
             placeholder="Enter your text here..."
-            className="min-h-[120px] resize-none"
+            className="min-h-[80px] resize-none"
             value={text}
             onChange={(e) => setText(e.target.value)}
             maxLength={280}
@@ -44,8 +41,8 @@ export const TextEditor = ({ onGenerate }: TextEditorProps) => {
           </p>
         </div>
 
-        <div className="space-y-4">
-          <div className="space-y-3">
+        <div className="space-y-3">
+          <div className="space-y-2">
             <label className="text-sm font-medium">Font</label>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
               {fonts.map((font) => (
@@ -62,7 +59,7 @@ export const TextEditor = ({ onGenerate }: TextEditorProps) => {
             </div>
           </div>
 
-          <div className="space-y-3">
+          <div className="space-y-2">
             <label className="text-sm font-medium">Color Theme</label>
             <div className="grid grid-cols-2 gap-2">
               {colorCombinations.map((combo) => (
