@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 h-14">
         <div className="h-full flex items-center justify-between">
           <p className="text-sm text-muted-foreground">
-            No data is stored or collected from this application
+            No data is stored by this application
           </p>
           
           <div className="flex items-center gap-2">
